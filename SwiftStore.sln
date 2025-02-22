@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwiftStore.Web", "SwiftStore.Web\SwiftStore.Web.csproj", "{B26BE846-1468-489E-B8DC-BF481939B2A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwiftStore.Web", "SwiftStore.Web\SwiftStore.Web.csproj", "{B26BE846-1468-489E-B8DC-BF481939B2A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swift.Core", "Swift.Core\Swift.Core.csproj", "{D3D35B19-B2DE-4DAD-8DBD-857C8DED8FF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swift.DataLayer", "Swift.DataLayer\Swift.DataLayer.csproj", "{DA32B19A-7FDB-4B9A-B77F-9094C523E9CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{B26BE846-1468-489E-B8DC-BF481939B2A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B26BE846-1468-489E-B8DC-BF481939B2A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B26BE846-1468-489E-B8DC-BF481939B2A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3D35B19-B2DE-4DAD-8DBD-857C8DED8FF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3D35B19-B2DE-4DAD-8DBD-857C8DED8FF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3D35B19-B2DE-4DAD-8DBD-857C8DED8FF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3D35B19-B2DE-4DAD-8DBD-857C8DED8FF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA32B19A-7FDB-4B9A-B77F-9094C523E9CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA32B19A-7FDB-4B9A-B77F-9094C523E9CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA32B19A-7FDB-4B9A-B77F-9094C523E9CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA32B19A-7FDB-4B9A-B77F-9094C523E9CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
