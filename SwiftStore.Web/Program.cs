@@ -1,8 +1,21 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Swift.DataLayer.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
+
+#region Services
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+#endregion
 
+#region Connection String
+builder.Services.AddDbContext<SwiftStoreDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("SwiftConnection")));
+#endregion
+
+#region MiddlWare
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -25,3 +38,5 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
+#endregion
+

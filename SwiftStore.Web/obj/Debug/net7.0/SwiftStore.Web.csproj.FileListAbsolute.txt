@@ -6,7 +6,6 @@ C:\Users\Tolu\Documents\GitHub\SwiftStore\SwiftStore.Web\bin\Debug\net7.0\SwiftS
 C:\Users\Tolu\Documents\GitHub\SwiftStore\SwiftStore.Web\bin\Debug\net7.0\SwiftStore.Web.runtimeconfig.json
 C:\Users\Tolu\Documents\GitHub\SwiftStore\SwiftStore.Web\bin\Debug\net7.0\SwiftStore.Web.dll
 C:\Users\Tolu\Documents\GitHub\SwiftStore\SwiftStore.Web\bin\Debug\net7.0\SwiftStore.Web.pdb
-C:\Users\Tolu\Documents\GitHub\SwiftStore\SwiftStore.Web\obj\Debug\net7.0\SwiftStore.Web.csproj.AssemblyReference.cache
 C:\Users\Tolu\Documents\GitHub\SwiftStore\SwiftStore.Web\obj\Debug\net7.0\SwiftStore.Web.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Tolu\Documents\GitHub\SwiftStore\SwiftStore.Web\obj\Debug\net7.0\SwiftStore.Web.AssemblyInfoInputs.cache
 C:\Users\Tolu\Documents\GitHub\SwiftStore\SwiftStore.Web\obj\Debug\net7.0\SwiftStore.Web.AssemblyInfo.cs
@@ -29,3 +28,8 @@ C:\Users\Tolu\Documents\GitHub\SwiftStore\SwiftStore.Web\obj\Debug\net7.0\refint
 C:\Users\Tolu\Documents\GitHub\SwiftStore\SwiftStore.Web\obj\Debug\net7.0\SwiftStore.Web.pdb
 C:\Users\Tolu\Documents\GitHub\SwiftStore\SwiftStore.Web\obj\Debug\net7.0\SwiftStore.Web.genruntimeconfig.cache
 C:\Users\Tolu\Documents\GitHub\SwiftStore\SwiftStore.Web\obj\Debug\net7.0\ref\SwiftStore.Web.dll
+C:\Users\Tolu\Documents\GitHub\SwiftStore\SwiftStore.Web\bin\Debug\net7.0\SwiftStore.Web.staticwebassets.endpoints.json
+C:\Users\Tolu\Documents\GitHub\SwiftStore\SwiftStore.Web\obj\Debug\net7.0\SwiftStore.Web.sourcelink.json
+C:\Users\Tolu\Documents\GitHub\SwiftStore\SwiftStore.Web\obj\Debug\net7.0\staticwebassets.build.endpoints.json
+C:\Users\Tolu\Documents\GitHub\SwiftStore\SwiftStore.Web\obj\Debug\net7.0\staticwebassets\msbuild.SwiftStore.Web.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Tolu\Documents\GitHub\SwiftStore\SwiftStore.Web\obj\Debug\net7.0\staticwebassets.upToDateCheck.txt

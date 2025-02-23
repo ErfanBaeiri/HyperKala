@@ -1,0 +1,15 @@
+C:\Users\Tolu\Documents\GitHub\SwiftStore\Swift.DataLayer\bin\Debug\net9.0\Swift.DataLayer.deps.json
+C:\Users\Tolu\Documents\GitHub\SwiftStore\Swift.DataLayer\bin\Debug\net9.0\Swift.DataLayer.runtimeconfig.json
+C:\Users\Tolu\Documents\GitHub\SwiftStore\Swift.DataLayer\bin\Debug\net9.0\Swift.DataLayer.dll
+C:\Users\Tolu\Documents\GitHub\SwiftStore\Swift.DataLayer\bin\Debug\net9.0\Swift.DataLayer.pdb
+C:\Users\Tolu\Documents\GitHub\SwiftStore\Swift.DataLayer\obj\Debug\net9.0\Swift.DataLayer.csproj.AssemblyReference.cache
+C:\Users\Tolu\Documents\GitHub\SwiftStore\Swift.DataLayer\obj\Debug\net9.0\Swift.DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tolu\Documents\GitHub\SwiftStore\Swift.DataLayer\obj\Debug\net9.0\Swift.DataLayer.AssemblyInfoInputs.cache
+C:\Users\Tolu\Documents\GitHub\SwiftStore\Swift.DataLayer\obj\Debug\net9.0\Swift.DataLayer.AssemblyInfo.cs
+C:\Users\Tolu\Documents\GitHub\SwiftStore\Swift.DataLayer\obj\Debug\net9.0\Swift.DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\Tolu\Documents\GitHub\SwiftStore\Swift.DataLayer\obj\Debug\net9.0\Swift.DataLayer.sourcelink.json
+C:\Users\Tolu\Documents\GitHub\SwiftStore\Swift.DataLayer\obj\Debug\net9.0\Swift.DataLayer.dll
+C:\Users\Tolu\Documents\GitHub\SwiftStore\Swift.DataLayer\obj\Debug\net9.0\refint\Swift.DataLayer.dll
+C:\Users\Tolu\Documents\GitHub\SwiftStore\Swift.DataLayer\obj\Debug\net9.0\Swift.DataLayer.pdb
+C:\Users\Tolu\Documents\GitHub\SwiftStore\Swift.DataLayer\obj\Debug\net9.0\Swift.DataLayer.genruntimeconfig.cache
+C:\Users\Tolu\Documents\GitHub\SwiftStore\Swift.DataLayer\obj\Debug\net9.0\ref\Swift.DataLayer.dll

@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\SwiftStore\\SwiftStore.Web\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\SwiftStore.Web.bundle.scp.css",
-      "PackagePath": "staticwebassets\\SwiftStore.Web.bundle.scp.css"
+      "PackagePath": "staticwebassets\\SwiftStore.Web.h8fq0gh1y8.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\SwiftStore\\SwiftStore.Web\\wwwroot\\MainContent\\css\\font-awesome\\css\\font-awesome.css",
@@ -2097,14 +2097,6 @@
       "PackagePath": "staticwebassets\\MainContent\\js\\swipebox\\src\\js\\jquery.swipebox.min.js"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\SwiftStore\\SwiftStore.Web\\wwwroot\\MainContent\\revolution\\.DS_Store",
-      "PackagePath": "staticwebassets\\MainContent\\revolution\\.DS_Store"
-    },
-    {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\SwiftStore\\SwiftStore.Web\\wwwroot\\MainContent\\revolution\\assets\\.DS_Store",
-      "PackagePath": "staticwebassets\\MainContent\\revolution\\assets\\.DS_Store"
-    },
-    {
       "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\SwiftStore\\SwiftStore.Web\\wwwroot\\MainContent\\revolution\\assets\\coloredbg.png",
       "PackagePath": "staticwebassets\\MainContent\\revolution\\assets\\coloredbg.png"
     },
@@ -2167,10 +2159,6 @@
     {
       "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\SwiftStore\\SwiftStore.Web\\wwwroot\\MainContent\\revolution\\assets\\sources\\yt.png",
       "PackagePath": "staticwebassets\\MainContent\\revolution\\assets\\sources\\yt.png"
-    },
-    {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\SwiftStore\\SwiftStore.Web\\wwwroot\\MainContent\\revolution\\css\\.DS_Store",
-      "PackagePath": "staticwebassets\\MainContent\\revolution\\css\\.DS_Store"
     },
     {
       "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\SwiftStore\\SwiftStore.Web\\wwwroot\\MainContent\\revolution\\css\\closedhand.cur",
@@ -2253,14 +2241,6 @@
       "PackagePath": "staticwebassets\\MainContent\\revolution\\css\\settings.css"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\SwiftStore\\SwiftStore.Web\\wwwroot\\MainContent\\revolution\\fonts\\.DS_Store",
-      "PackagePath": "staticwebassets\\MainContent\\revolution\\fonts\\.DS_Store"
-    },
-    {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\SwiftStore\\SwiftStore.Web\\wwwroot\\MainContent\\revolution\\fonts\\font-awesome\\.DS_Store",
-      "PackagePath": "staticwebassets\\MainContent\\revolution\\fonts\\font-awesome\\.DS_Store"
-    },
-    {
       "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\SwiftStore\\SwiftStore.Web\\wwwroot\\MainContent\\revolution\\fonts\\font-awesome\\css\\font-awesome.css",
       "PackagePath": "staticwebassets\\MainContent\\revolution\\fonts\\font-awesome\\css\\font-awesome.css"
     },
@@ -2299,10 +2279,6 @@
     {
       "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\SwiftStore\\SwiftStore.Web\\wwwroot\\MainContent\\revolution\\fonts\\index.php",
       "PackagePath": "staticwebassets\\MainContent\\revolution\\fonts\\index.php"
-    },
-    {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\SwiftStore\\SwiftStore.Web\\wwwroot\\MainContent\\revolution\\fonts\\pe-icon-7-stroke\\.DS_Store",
-      "PackagePath": "staticwebassets\\MainContent\\revolution\\fonts\\pe-icon-7-stroke\\.DS_Store"
     },
     {
       "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\SwiftStore\\SwiftStore.Web\\wwwroot\\MainContent\\revolution\\fonts\\pe-icon-7-stroke\\css\\helper.css",
@@ -2481,10 +2457,6 @@
       "PackagePath": "staticwebassets\\MainContent\\revolution\\js\\source\\jquery.themepunch.tools.min.js"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\SwiftStore\\SwiftStore.Web\\wwwroot\\MainContent\\revolution\\php\\.DS_Store",
-      "PackagePath": "staticwebassets\\MainContent\\revolution\\php\\.DS_Store"
-    },
-    {
       "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\SwiftStore\\SwiftStore.Web\\wwwroot\\MainContent\\revolution\\php\\facebook\\class-facebook.php",
       "PackagePath": "staticwebassets\\MainContent\\revolution\\php\\facebook\\class-facebook.php"
     },
@@ -2495,10 +2467,6 @@
     {
       "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\SwiftStore\\SwiftStore.Web\\wwwroot\\MainContent\\revolution\\php\\instagram\\class-instagram.php",
       "PackagePath": "staticwebassets\\MainContent\\revolution\\php\\instagram\\class-instagram.php"
-    },
-    {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\SwiftStore\\SwiftStore.Web\\wwwroot\\MainContent\\revolution\\php\\twitter\\.DS_Store",
-      "PackagePath": "staticwebassets\\MainContent\\revolution\\php\\twitter\\.DS_Store"
     },
     {
       "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\SwiftStore\\SwiftStore.Web\\wwwroot\\MainContent\\revolution\\php\\twitter\\RestApi.php",
@@ -2527,6 +2495,10 @@
     {
       "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\SwiftStore\\SwiftStore.Web\\wwwroot\\MainContent\\revolution\\php\\youtube\\class-youtube.php",
       "PackagePath": "staticwebassets\\MainContent\\revolution\\php\\youtube\\class-youtube.php"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.SwiftStore.Web.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.SwiftStore.Web.Microsoft.AspNetCore.StaticWebAssets.props",
