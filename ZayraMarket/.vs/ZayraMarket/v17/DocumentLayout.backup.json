@@ -1,0 +1,113 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Tolu\\Documents\\GitHub\\ZayraMarket\\ZayraMarket\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{31C33014-EFFC-400A-BFCB-555C31A50C1A}|ZayraMarket.DataLayer\\ZayraMarket.DataLayer.csproj|c:\\users\\tolu\\documents\\github\\zayramarket\\zayramarket\\zayramarket.datalayer\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31C33014-EFFC-400A-BFCB-555C31A50C1A}|ZayraMarket.DataLayer\\ZayraMarket.DataLayer.csproj|solutionrelative:zayramarket.datalayer\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C33014-EFFC-400A-BFCB-555C31A50C1A}|ZayraMarket.DataLayer\\ZayraMarket.DataLayer.csproj|c:\\users\\tolu\\documents\\github\\zayramarket\\zayramarket\\zayramarket.datalayer\\repository\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31C33014-EFFC-400A-BFCB-555C31A50C1A}|ZayraMarket.DataLayer\\ZayraMarket.DataLayer.csproj|solutionrelative:zayramarket.datalayer\\repository\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C33014-EFFC-400A-BFCB-555C31A50C1A}|ZayraMarket.DataLayer\\ZayraMarket.DataLayer.csproj|c:\\users\\tolu\\documents\\github\\zayramarket\\zayramarket\\zayramarket.datalayer\\context\\zayramarketdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31C33014-EFFC-400A-BFCB-555C31A50C1A}|ZayraMarket.DataLayer\\ZayraMarket.DataLayer.csproj|solutionrelative:zayramarket.datalayer\\context\\zayramarketdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C33014-EFFC-400A-BFCB-555C31A50C1A}|ZayraMarket.DataLayer\\ZayraMarket.DataLayer.csproj|c:\\users\\tolu\\documents\\github\\zayramarket\\zayramarket\\zayramarket.datalayer\\entities\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31C33014-EFFC-400A-BFCB-555C31A50C1A}|ZayraMarket.DataLayer\\ZayraMarket.DataLayer.csproj|solutionrelative:zayramarket.datalayer\\entities\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C33014-EFFC-400A-BFCB-555C31A50C1A}|ZayraMarket.DataLayer\\ZayraMarket.DataLayer.csproj|c:\\users\\tolu\\documents\\github\\zayramarket\\zayramarket\\zayramarket.datalayer\\entities\\account\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31C33014-EFFC-400A-BFCB-555C31A50C1A}|ZayraMarket.DataLayer\\ZayraMarket.DataLayer.csproj|solutionrelative:zayramarket.datalayer\\entities\\account\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Tolu\\Documents\\GitHub\\ZayraMarket\\ZayraMarket\\ZayraMarket.DataLayer\\Repository\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "ZayraMarket.DataLayer\\Repository\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\Tolu\\Documents\\GitHub\\ZayraMarket\\ZayraMarket\\ZayraMarket.DataLayer\\Repository\\IGenericRepository.cs",
+              "RelativeToolTip": "ZayraMarket.DataLayer\\Repository\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T10:44:10.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Tolu\\Documents\\GitHub\\ZayraMarket\\ZayraMarket\\ZayraMarket.DataLayer\\Repository\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "ZayraMarket.DataLayer\\Repository\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\Tolu\\Documents\\GitHub\\ZayraMarket\\ZayraMarket\\ZayraMarket.DataLayer\\Repository\\GenericRepository.cs",
+              "RelativeToolTip": "ZayraMarket.DataLayer\\Repository\\GenericRepository.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAcwEMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T10:38:48.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ZayraMarketDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Tolu\\Documents\\GitHub\\ZayraMarket\\ZayraMarket\\ZayraMarket.DataLayer\\Context\\ZayraMarketDbContext.cs",
+              "RelativeDocumentMoniker": "ZayraMarket.DataLayer\\Context\\ZayraMarketDbContext.cs",
+              "ToolTip": "C:\\Users\\Tolu\\Documents\\GitHub\\ZayraMarket\\ZayraMarket\\ZayraMarket.DataLayer\\Context\\ZayraMarketDbContext.cs",
+              "RelativeToolTip": "ZayraMarket.DataLayer\\Context\\ZayraMarketDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T10:36:10.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Tolu\\Documents\\GitHub\\ZayraMarket\\ZayraMarket\\ZayraMarket.DataLayer\\Entities\\Account\\User.cs",
+              "RelativeDocumentMoniker": "ZayraMarket.DataLayer\\Entities\\Account\\User.cs",
+              "ToolTip": "C:\\Users\\Tolu\\Documents\\GitHub\\ZayraMarket\\ZayraMarket\\ZayraMarket.DataLayer\\Entities\\Account\\User.cs",
+              "RelativeToolTip": "ZayraMarket.DataLayer\\Entities\\Account\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T10:31:19.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Tolu\\Documents\\GitHub\\ZayraMarket\\ZayraMarket\\ZayraMarket.DataLayer\\Entities\\Common\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "ZayraMarket.DataLayer\\Entities\\Common\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\Tolu\\Documents\\GitHub\\ZayraMarket\\ZayraMarket\\ZayraMarket.DataLayer\\Entities\\Common\\BaseEntity.cs",
+              "RelativeToolTip": "ZayraMarket.DataLayer\\Entities\\Common\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T10:31:12.681Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

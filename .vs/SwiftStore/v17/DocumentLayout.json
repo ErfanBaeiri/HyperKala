@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Tolu\\Documents\\GitHub\\SwiftStore\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B26BE846-1468-489E-B8DC-BF481939B2A5}|SwiftStore.Web\\SwiftStore.Web.csproj|c:\\users\\tolu\\documents\\github\\swiftstore\\swiftstore.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B26BE846-1468-489E-B8DC-BF481939B2A5}|SwiftStore.Web\\SwiftStore.Web.csproj|solutionrelative:swiftstore.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 100,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Tolu\\Documents\\GitHub\\SwiftStore\\SwiftStore.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "SwiftStore.Web\\appsettings.json",
+              "ToolTip": "C:\\Users\\Tolu\\Documents\\GitHub\\SwiftStore\\SwiftStore.Web\\appsettings.json",
+              "RelativeToolTip": "SwiftStore.Web\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-02T09:05:44.598Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
