@@ -1,0 +1,16 @@
+C:\Users\Tolu\Documents\GitHub\HyperKala\HyperKala\HyperKala.Application\bin\Debug\net9.0\HyperKala.Application.deps.json
+C:\Users\Tolu\Documents\GitHub\HyperKala\HyperKala\HyperKala.Application\bin\Debug\net9.0\HyperKala.Application.dll
+C:\Users\Tolu\Documents\GitHub\HyperKala\HyperKala\HyperKala.Application\bin\Debug\net9.0\HyperKala.Application.pdb
+C:\Users\Tolu\Documents\GitHub\HyperKala\HyperKala\HyperKala.Application\obj\Debug\net9.0\HyperKala.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tolu\Documents\GitHub\HyperKala\HyperKala\HyperKala.Application\obj\Debug\net9.0\HyperKala.Application.AssemblyInfoInputs.cache
+C:\Users\Tolu\Documents\GitHub\HyperKala\HyperKala\HyperKala.Application\obj\Debug\net9.0\HyperKala.Application.AssemblyInfo.cs
+C:\Users\Tolu\Documents\GitHub\HyperKala\HyperKala\HyperKala.Application\obj\Debug\net9.0\HyperKala.Application.csproj.CoreCompileInputs.cache
+C:\Users\Tolu\Documents\GitHub\HyperKala\HyperKala\HyperKala.Application\obj\Debug\net9.0\HyperKala.Application.sourcelink.json
+C:\Users\Tolu\Documents\GitHub\HyperKala\HyperKala\HyperKala.Application\obj\Debug\net9.0\HyperKala.Application.dll
+C:\Users\Tolu\Documents\GitHub\HyperKala\HyperKala\HyperKala.Application\obj\Debug\net9.0\refint\HyperKala.Application.dll
+C:\Users\Tolu\Documents\GitHub\HyperKala\HyperKala\HyperKala.Application\obj\Debug\net9.0\HyperKala.Application.pdb
+C:\Users\Tolu\Documents\GitHub\HyperKala\HyperKala\HyperKala.Application\obj\Debug\net9.0\ref\HyperKala.Application.dll
+C:\Users\Tolu\Documents\GitHub\HyperKala\HyperKala\HyperKala.Application\bin\Debug\net9.0\HyperKala.Domain.dll
+C:\Users\Tolu\Documents\GitHub\HyperKala\HyperKala\HyperKala.Application\bin\Debug\net9.0\HyperKala.Domain.pdb
+C:\Users\Tolu\Documents\GitHub\HyperKala\HyperKala\HyperKala.Application\obj\Debug\net9.0\HyperKala.Application.csproj.AssemblyReference.cache
+C:\Users\Tolu\Documents\GitHub\HyperKala\HyperKala\HyperKala.Application\obj\Debug\net9.0\HyperKal.B41ED363.Up2Date
