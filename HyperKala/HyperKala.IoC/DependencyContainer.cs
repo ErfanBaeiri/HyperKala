@@ -14,12 +14,14 @@ namespace HyperKala.IoC
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<ISmsService, SmsService>();
             services.AddScoped<IWalletService, WalletService>();
+            services.AddScoped<IProductService, ProductService>();
 
             #endregion
 
             #region Repositories
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IWalletRepository, WalletRepository>();
+            services.AddScoped<IProductRepository, ProductRepository>();
             #endregion
         }
     }

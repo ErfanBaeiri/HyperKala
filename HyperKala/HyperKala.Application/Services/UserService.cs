@@ -5,7 +5,7 @@ using HyperKala.Application.Statics;
 using HyperKala.Domain.Entities.Account;
 using HyperKala.Domain.Interfaces;
 using HyperKala.Domain.ViewModels.Account;
-using HyperKala.Domain.ViewModels.Admin;
+using HyperKala.Domain.ViewModels.Admin.UserRoleAndPermisson;
 using Microsoft.AspNetCore.Http;
 using Shop.Application.Extentions;
 
@@ -170,7 +170,7 @@ namespace HyperKala.Application.Services
 
         #region admin
 
-        public async Task<FilterUserViewModel> FilterUsers(FilterUserViewModel filter)
+        public async Task<FilterUserViewModel?> FilterUsers(FilterUserViewModel filter)
         {
             return await _userRepository.FilterUsers(filter);
         }
@@ -198,13 +198,99 @@ namespace HyperKala.Application.Services
             }
 
             _userRepository.UpdateUser(user);
+
+            await _userRepository.RemoveAllUserSelectedRole(editUser.Id);
+
+            await _userRepository.AddUserToRole(editUser.RoleIds, editUser.Id);
+
             await _userRepository.SaveChangeAsync();
 
             return EditUserFromAdminResult.Success;
 
         }
-        #endregion
 
+        public async Task<CreateOrEditRoleViewModel?> GetEditRoleById(long roleId)
+        {
+            return await _userRepository.GetEditRoleById(roleId);
+        }
+
+        public async Task<CreateOrEditRoleResult> CreateOrEditRole(CreateOrEditRoleViewModel createOrEditRole)
+        {
+            if (createOrEditRole.Id != 0)
+            {
+                var role = await _userRepository.GetRoleById(createOrEditRole.Id);
+
+                if (role == null)
+                    return CreateOrEditRoleResult.NotFound;
+
+                role.RoleTitle = createOrEditRole.RoleTitle;
+
+                _userRepository.UpdateRole(role);
+
+                await _userRepository.RemoveAllPermissionSelectedRole(createOrEditRole.Id);
+
+
+                if (createOrEditRole.SelectedPermission == null)
+                    return CreateOrEditRoleResult.NotExistPermissions;
+
+                await _userRepository.AddPermissionToRole(createOrEditRole.SelectedPermission, createOrEditRole.Id);
+
+                await _userRepository.SaveChangeAsync();
+
+                return CreateOrEditRoleResult.Success;
+            }
+            else
+            {
+                //create
+
+                var newRole = new Role
+                {
+                    RoleTitle = createOrEditRole.RoleTitle
+                };
+
+                await _userRepository.CreateRole(newRole);
+
+                if (createOrEditRole.SelectedPermission == null)
+                    return CreateOrEditRoleResult.NotExistPermissions;
+
+                await _userRepository.AddPermissionToRole(createOrEditRole.SelectedPermission, newRole.Id);
+
+                await _userRepository.SaveChangeAsync();
+
+
+                return CreateOrEditRoleResult.Success;
+            }
+        }
+
+        public async Task<FilterRolesViewModel?> FilterRoles(FilterRolesViewModel filter)
+        {
+            return await _userRepository.FilterRoles(filter);
+        }
+
+        public async Task<List<Permission>> GetAllActivePermission()
+        {
+            return await _userRepository.GetAllActivePermission();
+        }
+        public async Task<List<Role>> GetAllActiveRoles()
+        {
+            return await _userRepository.GetAllActiveRoles();
+        }
+
+        public async Task<bool> CreateRoleForUserAtAdminPanelAsync(CreateRoleForUserSampleVM createRoleForUserSample)
+        {
+            if (await _userRepository.IsExistRoleForUser(createRoleForUserSample.RoleTitle))
+                return false;
+
+            var newRole = new Role
+            {
+                RoleTitle = createRoleForUserSample.RoleTitle
+            };
+
+            await _userRepository.CreateRole(newRole);
+            await _userRepository.SaveChangeAsync();
+            return true;
+        }
+        #endregion
 
     }
 }

@@ -1961,6 +1961,8 @@ wwwroot\images\video\bg-2.jpg
 wwwroot\images\video\poster-1.jpg
 wwwroot\images\video\poster-2.jpg
 wwwroot\images\video\poster-3.jpg
+wwwroot\img\category\orgin\ae06d5573ad641f2a9227d250e0c2249.jpg
+wwwroot\img\category\thumb\ae06d5573ad641f2a9227d250e0c2249.jpg
 wwwroot\js\bootstrap.bundle.min.js
 wwwroot\js\bootstrap-input-spinner.js
 wwwroot\js\captcha.js

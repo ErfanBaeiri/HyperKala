@@ -1,7 +1,7 @@
 ﻿using HyperKala.Domain.Entities.Account;
 using HyperKala.Domain.ViewModels.Paging;
 
-namespace HyperKala.Domain.ViewModels.Admin
+namespace HyperKala.Domain.ViewModels.Admin.UserRoleAndPermisson
 {
     public class FilterUserViewModel : BasePaging
     {
@@ -11,20 +11,20 @@ namespace HyperKala.Domain.ViewModels.Admin
         #region methods
         public FilterUserViewModel SetUsers(List<User> users)
         {
-            this.Users = users;
+            Users = users;
             return this;
         }
 
         public FilterUserViewModel SetPaging(BasePaging paging)
         {
-            this.PageId = paging.PageId;
-            this.AllEntityCount = paging.AllEntityCount;
-            this.StartPage = paging.StartPage;
-            this.EndPage = paging.EndPage;
-            this.TakeEntity = paging.TakeEntity;
-            this.CountForShowAfterAndBefore = paging.CountForShowAfterAndBefore;
-            this.SkipEntity = paging.SkipEntity;
-            this.PageCount = paging.PageCount;
+            PageId = paging.PageId;
+            AllEntityCount = paging.AllEntityCount;
+            StartPage = paging.StartPage;
+            EndPage = paging.EndPage;
+            TakeEntity = paging.TakeEntity;
+            CountForShowAfterAndBefore = paging.CountForShowAfterAndBefore;
+            SkipEntity = paging.SkipEntity;
+            PageCount = paging.PageCount;
 
             return this;
         }

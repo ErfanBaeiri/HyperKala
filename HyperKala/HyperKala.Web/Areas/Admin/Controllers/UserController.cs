@@ -1,5 +1,5 @@
 ﻿using HyperKala.Application.Interfaces;
-using HyperKala.Domain.ViewModels.Admin;
+using HyperKala.Domain.ViewModels.Admin.UserRoleAndPermisson;
 using Microsoft.AspNetCore.Mvc;
 
 namespace HyperKala.Web.Areas.Admin.Controllers
@@ -34,12 +34,16 @@ namespace HyperKala.Web.Areas.Admin.Controllers
                 return NotFound();
             }
 
+            ViewData["Roles"] = await _userService.GetAllActiveRoles();
+
             return View(data);
         }
 
         [HttpPost, ValidateAntiForgeryToken]
         public async Task<IActionResult> EditUser(EditUserFromAdmin editUser)
         {
+            ViewData["Roles"] = await _userService.GetAllActiveRoles();
+
             if (ModelState.IsValid)
             {
                 var result = await _userService.EditUserFromAdmin(editUser);
@@ -58,6 +62,103 @@ namespace HyperKala.Web.Areas.Admin.Controllers
             return View(editUser);
         }
 
+        #endregion
+
+        #region filter roles
+        public async Task<IActionResult> FilterRoles(FilterRolesViewModel filter)
+        {
+            return View(await _userService.FilterRoles(filter));
+        }
+        #endregion
+
+        #region create Role
+        [HttpGet]
+        public async Task<IActionResult> CreateRole()
+        {
+
+            return View();
+        }
+
+
+        [HttpPost, ValidateAntiForgeryToken]
+        public async Task<IActionResult> CreateRole(CreateRoleForUserSampleVM createRoleForUser)
+        {
+
+            if (!ModelState.IsValid)
+                return View(createRoleForUser);
+
+            var result = await _userService.CreateRoleForUserAtAdminPanelAsync(createRoleForUser);
+
+            if (!result)
+            {
+                TempData[WarningMessage] = "تگ وارد شده تکراری میباشد";
+                return View(createRoleForUser);
+            }
+
+            TempData[SuccessMessage] = "عملیات افزودن نقش با موفقیت انجام شد";
+            return RedirectToAction("FilterRoles");
+
+        }
+
+        //[HttpPost, ValidateAntiForgeryToken]
+        //public async Task<IActionResult> CreateRole(CreateOrEditRoleViewModel create)
+        //{
+        //    if (ModelState.IsValid)
+        //    {
+        //        var result = await _userService.CreateOrEditRole(create);
+
+        //        switch (result)
+        //        {
+        //            case CreateOrEditRoleResult.NotExistPermissions:
+        //                TempData[SuccessMessage] = "لطفا نقشی را انتخاب کنید";
+        //                break;
+        //            case CreateOrEditRoleResult.NotFound:
+        //                break;
+        //            case CreateOrEditRoleResult.Success:
+        //                TempData[SuccessMessage] = "عملیات افزودن نقش با موفقیت انجام شد";
+        //                return RedirectToAction("FilterRoles");
+        //        }
+        //    }
+
+
+
+        //    return View(create);
+        //}
+        #endregion
+
+        #region Edit Role
+        [HttpGet]
+        public async Task<IActionResult> EditRole(long roleId)
+        {
+            ViewData["Permissions"] = await _userService.GetAllActivePermission();
+
+            return View(await _userService.GetEditRoleById(roleId));
+        }
+
+        [HttpPost, ValidateAntiForgeryToken]
+        public async Task<IActionResult> EditRole(CreateOrEditRoleViewModel create)
+        {
+            ViewData["Permissions"] = await _userService.GetAllActivePermission();
+            if (ModelState.IsValid)
+            {
+                var result = await _userService.CreateOrEditRole(create);
+
+                switch (result)
+                {
+                    case CreateOrEditRoleResult.NotFound:
+                        TempData[WarningMessage] = "نقشی با مشخصات وارد شده یافت نشد";
+                        break;
+                    case CreateOrEditRoleResult.NotExistPermissions:
+                        TempData[SuccessMessage] = "لطفا نقشی را انتخاب کنید";
+                        break;
+                    case CreateOrEditRoleResult.Success:
+                        TempData[SuccessMessage] = "عملیات ویرایش نقش با موفقیت انجام شد";
+                        return RedirectToAction("FilterRoles");
+                }
+            }
+
+            return View(create);
+        }
         #endregion
 
     }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HyperKala.IoC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e90dfaf01132977a5b3db7524d23208d90c86099")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c03531616c87b5b43a8164c19c0627ab052562c8")]
 [assembly: System.Reflection.AssemblyProductAttribute("HyperKala.IoC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HyperKala.IoC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

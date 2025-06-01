@@ -31284,6 +31284,42 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\video\poster-3.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\category\orgin\ae06d5573ad641f2a9227d250e0c2249.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>HyperKala.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/HyperKala.Web</BasePath>
+      <RelativePath>img/category/orgin/ae06d5573ad641f2a9227d250e0c2249.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>fsl0hhntmg</Fingerprint>
+      <Integrity>T7MmCXWko11kaKbkGu92UJ6ASM1Sn/7VpdOb9BnqiaM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\category\orgin\ae06d5573ad641f2a9227d250e0c2249.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\category\thumb\ae06d5573ad641f2a9227d250e0c2249.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>HyperKala.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/HyperKala.Web</BasePath>
+      <RelativePath>img/category/thumb/ae06d5573ad641f2a9227d250e0c2249.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>1pc1tb7aln</Fingerprint>
+      <Integrity>hS82H+2yfOxKUewLmt2UixMr8w5nOsE9DZSQBVxapfM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\category\thumb\ae06d5573ad641f2a9227d250e0c2249.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\bootstrap-input-spinner.js'))">
       <SourceType>Package</SourceType>
       <SourceId>HyperKala.Web</SourceId>

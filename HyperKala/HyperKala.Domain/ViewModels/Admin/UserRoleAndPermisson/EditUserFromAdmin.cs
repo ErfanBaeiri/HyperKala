@@ -1,7 +1,7 @@
 ﻿using HyperKala.Domain.Entities.Account;
 using System.ComponentModel.DataAnnotations;
 
-namespace HyperKala.Domain.ViewModels.Admin
+namespace HyperKala.Domain.ViewModels.Admin.UserRoleAndPermisson
 {
     public class EditUserFromAdmin
     {
@@ -24,6 +24,8 @@ namespace HyperKala.Domain.ViewModels.Admin
         [Display(Name = "گذرواژه")]
         [MaxLength(200, ErrorMessage = "{0} نمی تواند بیشتر از {1} کاراکتر باشد")]
         public string? Password { get; set; }
+
+        public List<long> RoleIds { get; set; }
     }
 
     public enum EditUserFromAdminResult

@@ -6953,6 +6953,14 @@
       "PackagePath": "staticwebassets\\images\\video\\poster-3.jpg"
     },
     {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\HyperKala\\HyperKala\\HyperKala.Web\\wwwroot\\img\\category\\orgin\\ae06d5573ad641f2a9227d250e0c2249.jpg",
+      "PackagePath": "staticwebassets\\img\\category\\orgin\\ae06d5573ad641f2a9227d250e0c2249.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\HyperKala\\HyperKala\\HyperKala.Web\\wwwroot\\img\\category\\thumb\\ae06d5573ad641f2a9227d250e0c2249.jpg",
+      "PackagePath": "staticwebassets\\img\\category\\thumb\\ae06d5573ad641f2a9227d250e0c2249.jpg"
+    },
+    {
       "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\HyperKala\\HyperKala\\HyperKala.Web\\wwwroot\\js\\bootstrap-input-spinner.js",
       "PackagePath": "staticwebassets\\js\\bootstrap-input-spinner.js"
     },
