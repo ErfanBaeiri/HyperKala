@@ -28,12 +28,60 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
+[C:/Users/Tolu/Documents/GitHub/HyperKala/HyperKala/HyperKala.Web/Areas/Admin/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tolu/Documents/GitHub/HyperKala/HyperKala/HyperKala.Web/Areas/Admin/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tolu/Documents/GitHub/HyperKala/HyperKala/HyperKala.Web/Areas/Admin/Views/Shared/_AdminPaging.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9BZG1pblBhZ2luZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tolu/Documents/GitHub/HyperKala/HyperKala/HyperKala.Web/Areas/Admin/Views/Shared/_AdminSideMenu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9BZG1pblNpZGVNZW51LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tolu/Documents/GitHub/HyperKala/HyperKala/HyperKala.Web/Areas/Admin/Views/Shared/_FooterAdminReferences.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9Gb290ZXJBZG1pblJlZmVyZW5jZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tolu/Documents/GitHub/HyperKala/HyperKala/HyperKala.Web/Areas/Admin/Views/User/EditUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxFZGl0VXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tolu/Documents/GitHub/HyperKala/HyperKala/HyperKala.Web/Areas/Admin/Views/User/FilterUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxGaWx0ZXJVc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tolu/Documents/GitHub/HyperKala/HyperKala/HyperKala.Web/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tolu/Documents/GitHub/HyperKala/HyperKala/HyperKala.Web/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Tolu/Documents/GitHub/HyperKala/HyperKala/HyperKala.Web/Areas/User/Views/Account/ChangePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xBY2NvdW50XENoYW5nZVBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Tolu/Documents/GitHub/HyperKala/HyperKala/HyperKala.Web/Areas/User/Views/Account/ChargeWallet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xBY2NvdW50XENoYXJnZVdhbGxldC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Tolu/Documents/GitHub/HyperKala/HyperKala/HyperKala.Web/Areas/User/Views/Account/EditUserProfile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xBY2NvdW50XEVkaXRVc2VyUHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tolu/Documents/GitHub/HyperKala/HyperKala/HyperKala.Web/Areas/User/Views/Account/OnlinePayment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xBY2NvdW50XE9ubGluZVBheW1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tolu/Documents/GitHub/HyperKala/HyperKala/HyperKala.Web/Areas/User/Views/Account/UserWallet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xBY2NvdW50XFVzZXJXYWxsZXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Tolu/Documents/GitHub/HyperKala/HyperKala/HyperKala.Web/Areas/User/Views/Home/Index.cshtml]
@@ -46,6 +94,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Tolu/Documents/GitHub/HyperKala/HyperKala/HyperKala.Web/Areas/User/Views/Shared/Components/UserSideBar/UserSidebar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xTaGFyZWRcQ29tcG9uZW50c1xVc2VyU2lkZUJhclxVc2VyU2lkZWJhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tolu/Documents/GitHub/HyperKala/HyperKala/HyperKala.Web/Areas/User/Views/Shared/_Paging.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xTaGFyZWRcX1BhZ2luZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Tolu/Documents/GitHub/HyperKala/HyperKala/HyperKala.Web/Areas/User/Views/_ViewImports.cshtml]

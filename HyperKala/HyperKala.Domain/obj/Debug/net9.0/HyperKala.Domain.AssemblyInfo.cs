@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HyperKala.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f378235be6ad2be014040c99a8430e60ca000f9d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e90dfaf01132977a5b3db7524d23208d90c86099")]
 [assembly: System.Reflection.AssemblyProductAttribute("HyperKala.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HyperKala.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

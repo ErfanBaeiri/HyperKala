@@ -1,6 +1,7 @@
 ﻿using HyperKala.Application.Services;
 using HyperKala.Domain.Entities.Account;
 using HyperKala.Domain.ViewModels.Account;
+using HyperKala.Domain.ViewModels.Admin;
 using Microsoft.AspNetCore.Http;
 
 namespace HyperKala.Application.Interfaces
@@ -15,5 +16,11 @@ namespace HyperKala.Application.Interfaces
         Task<EditUserProfileViewModel> FillEditUserProfile(long userId);
         Task<EditUserProfileResult> EditUserProfile(long useriId,IFormFile userAvatar,EditUserProfileViewModel edit);
         Task<ChangePasswordResult> ChangePasswordInUserPanelAsync(long userId,ChangePasswordViewModel changePassword);
+
+        #region admin
+        Task<FilterUserViewModel> FilterUsers(FilterUserViewModel filter);
+        Task<EditUserFromAdmin?> GetEditUserFromAdmin(long userId);
+        Task<EditUserFromAdminResult> EditUserFromAdmin(EditUserFromAdmin editUser);
+        #endregion
     }
 }

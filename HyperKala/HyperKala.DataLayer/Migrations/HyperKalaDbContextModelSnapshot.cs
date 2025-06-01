@@ -22,6 +22,88 @@ namespace HyperKala.DataLayer.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("HyperKala.Domain.Entities.Account.Permission", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
+
+                    b.Property<DateTime>("CreateDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsDelete")
+                        .HasColumnType("bit");
+
+                    b.Property<long?>("ParentId")
+                        .HasColumnType("bigint");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ParentId");
+
+                    b.ToTable("Permissions");
+                });
+
+            modelBuilder.Entity("HyperKala.Domain.Entities.Account.Role", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
+
+                    b.Property<DateTime>("CreateDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsDelete")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("RoleTitle")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Roles");
+                });
+
+            modelBuilder.Entity("HyperKala.Domain.Entities.Account.RolePermission", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
+
+                    b.Property<DateTime>("CreateDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsDelete")
+                        .HasColumnType("bit");
+
+                    b.Property<long>("PermissionId")
+                        .HasColumnType("bigint");
+
+                    b.Property<long>("RoleId")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("PermissionId");
+
+                    b.HasIndex("RoleId");
+
+                    b.ToTable("RolePermissions");
+                });
+
             modelBuilder.Entity("HyperKala.Domain.Entities.Account.User", b =>
                 {
                     b.Property<long>("Id")
@@ -80,6 +162,35 @@ namespace HyperKala.DataLayer.Migrations
                     b.ToTable("Users");
                 });
 
+            modelBuilder.Entity("HyperKala.Domain.Entities.Account.UserRole", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
+
+                    b.Property<DateTime>("CreateDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsDelete")
+                        .HasColumnType("bit");
+
+                    b.Property<long>("RoleId")
+                        .HasColumnType("bigint");
+
+                    b.Property<long>("UserId")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("RoleId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("UserRoles");
+                });
+
             modelBuilder.Entity("HyperKala.Domain.Entities.Wallet.UserWallet", b =>
                 {
                     b.Property<long>("Id")
@@ -118,6 +229,51 @@ namespace HyperKala.DataLayer.Migrations
                     b.ToTable("UserWallets");
                 });
 
+            modelBuilder.Entity("HyperKala.Domain.Entities.Account.Permission", b =>
+                {
+                    b.HasOne("HyperKala.Domain.Entities.Account.Permission", null)
+                        .WithMany("Permissions")
+                        .HasForeignKey("ParentId");
+                });
+
+            modelBuilder.Entity("HyperKala.Domain.Entities.Account.RolePermission", b =>
+                {
+                    b.HasOne("HyperKala.Domain.Entities.Account.Permission", "Permission")
+                        .WithMany("RolePermissions")
+                        .HasForeignKey("PermissionId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("HyperKala.Domain.Entities.Account.Role", "Role")
+                        .WithMany("RolePermissions")
+                        .HasForeignKey("RoleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Permission");
+
+                    b.Navigation("Role");
+                });
+
+            modelBuilder.Entity("HyperKala.Domain.Entities.Account.UserRole", b =>
+                {
+                    b.HasOne("HyperKala.Domain.Entities.Account.Role", "Role")
+                        .WithMany("UserRoles")
+                        .HasForeignKey("RoleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("HyperKala.Domain.Entities.Account.User", "User")
+                        .WithMany("UserRoles")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Role");
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("HyperKala.Domain.Entities.Wallet.UserWallet", b =>
                 {
                     b.HasOne("HyperKala.Domain.Entities.Account.User", "User")
@@ -129,8 +285,24 @@ namespace HyperKala.DataLayer.Migrations
                     b.Navigation("User");
                 });
 
+            modelBuilder.Entity("HyperKala.Domain.Entities.Account.Permission", b =>
+                {
+                    b.Navigation("Permissions");
+
+                    b.Navigation("RolePermissions");
+                });
+
+            modelBuilder.Entity("HyperKala.Domain.Entities.Account.Role", b =>
+                {
+                    b.Navigation("RolePermissions");
+
+                    b.Navigation("UserRoles");
+                });
+
             modelBuilder.Entity("HyperKala.Domain.Entities.Account.User", b =>
                 {
+                    b.Navigation("UserRoles");
+
                     b.Navigation("UserWallets");
                 });
 #pragma warning restore 612, 618

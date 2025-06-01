@@ -1,5 +1,29 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/HyperKala.Web/admin/css/custom.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\admin\css\custom.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-B2AjJMqwuYqQqgZWAwQnk2acGIzw/QLRQtn4MlipvfA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2047"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022B2AjJMqwuYqQqgZWAwQnk2acGIzw/QLRQtn4MlipvfA=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 18:57:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HyperKala.Web/admin/css/custom.heb53diqgk.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\admin\css\custom.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"heb53diqgk"},{"Name":"integrity","Value":"sha256-B2AjJMqwuYqQqgZWAwQnk2acGIzw/QLRQtn4MlipvfA="},{"Name":"label","Value":"_content/HyperKala.Web/admin/css/custom.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2047"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022B2AjJMqwuYqQqgZWAwQnk2acGIzw/QLRQtn4MlipvfA=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 18:57:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HyperKala.Web/admin/js/custom.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\admin\js\custom.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-E9GIuKhNKvUxPSx5hSfY7Cvi5GOys50OEoKTR5FBzYY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"226"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022E9GIuKhNKvUxPSx5hSfY7Cvi5GOys50OEoKTR5FBzYY=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 18:57:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HyperKala.Web/admin/js/custom.v11b3ds43y.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\admin\js\custom.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"v11b3ds43y"},{"Name":"integrity","Value":"sha256-E9GIuKhNKvUxPSx5hSfY7Cvi5GOys50OEoKTR5FBzYY="},{"Name":"label","Value":"_content/HyperKala.Web/admin/js/custom.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"226"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022E9GIuKhNKvUxPSx5hSfY7Cvi5GOys50OEoKTR5FBzYY=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 18:57:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/HyperKala.Web/css/bootstrap-rtl.min.163kh4onw6.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\bootstrap-rtl.min.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -20868,17 +20892,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ts651p34y3"},{"Name":"integrity","Value":"sha256-U3lEgGxvGMzTr4/f4QaD/IlqLCnBpshl0AICn6J0iRc="},{"Name":"label","Value":"_content/HyperKala.Web/js/captcha.js"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2937"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022U3lEgGxvGMzTr4/f4QaD/IlqLCnBpshl0AICn6J0iRc=\u0022"},{"Name":"Last-Modified","Value":"Sun, 04 Jul 2021 09:51:57 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HyperKala.Web/js/custom.2nxq2s58aw.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\custom.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"2nxq2s58aw"},{"Name":"integrity","Value":"sha256-zq739kSaEIU8FJ6DaU\u002BpE7BsmfKqrQLhaS75pVcbu3c="},{"Name":"label","Value":"_content/HyperKala.Web/js/custom.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"624"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022zq739kSaEIU8FJ6DaU\u002BpE7BsmfKqrQLhaS75pVcbu3c=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 18:32:57 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/HyperKala.Web/js/custom.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\custom.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-xKEPGlIXCPMCT0qdThROmLBCSNDgW8GpTf4Xr3olyf8="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"373"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022xKEPGlIXCPMCT0qdThROmLBCSNDgW8GpTf4Xr3olyf8=\u0022"},{"Name":"Last-Modified","Value":"Thu, 29 May 2025 20:35:23 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/HyperKala.Web/js/custom.o7rc1bynwk.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\custom.js'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"o7rc1bynwk"},{"Name":"integrity","Value":"sha256-xKEPGlIXCPMCT0qdThROmLBCSNDgW8GpTf4Xr3olyf8="},{"Name":"label","Value":"_content/HyperKala.Web/js/custom.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"373"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022xKEPGlIXCPMCT0qdThROmLBCSNDgW8GpTf4Xr3olyf8=\u0022"},{"Name":"Last-Modified","Value":"Thu, 29 May 2025 20:35:23 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-zq739kSaEIU8FJ6DaU\u002BpE7BsmfKqrQLhaS75pVcbu3c="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"624"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022zq739kSaEIU8FJ6DaU\u002BpE7BsmfKqrQLhaS75pVcbu3c=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 18:32:57 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/HyperKala.Web/js/demos/demo-10.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\demos\demo-10.js'))</AssetFile>

@@ -5,6 +5,7 @@ using HyperKala.Application.Statics;
 using HyperKala.Domain.Entities.Account;
 using HyperKala.Domain.Interfaces;
 using HyperKala.Domain.ViewModels.Account;
+using HyperKala.Domain.ViewModels.Admin;
 using Microsoft.AspNetCore.Http;
 using Shop.Application.Extentions;
 
@@ -166,6 +167,44 @@ namespace HyperKala.Application.Services
 
 
         #endregion
+
+        #region admin
+
+        public async Task<FilterUserViewModel> FilterUsers(FilterUserViewModel filter)
+        {
+            return await _userRepository.FilterUsers(filter);
+        }
+
+        public async Task<EditUserFromAdmin?> GetEditUserFromAdmin(long userId)
+        {
+            return await _userRepository.GetEditUserFromAdmin(userId);
+        }
+
+        public async Task<EditUserFromAdminResult> EditUserFromAdmin(EditUserFromAdmin editUser)
+        {
+            var user = await _userRepository.GetUserByIdAsync(editUser.Id);
+
+            if (user == null)
+                return EditUserFromAdminResult.NotFound;
+
+
+            user.FirstName = editUser.FirstName;
+            user.LastName = editUser.LastName;
+            user.UserGender = editUser.UserGender;
+
+            if (!string.IsNullOrEmpty(editUser.Password))
+            {
+                user.Password = PasswordHelper.HashPassword(editUser.Password);
+            }
+
+            _userRepository.UpdateUser(user);
+            await _userRepository.SaveChangeAsync();
+
+            return EditUserFromAdminResult.Success;
+
+        }
+        #endregion
+
 
     }
 }

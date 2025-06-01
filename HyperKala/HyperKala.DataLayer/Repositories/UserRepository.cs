@@ -1,6 +1,8 @@
 ﻿using HyperKala.DataLayer.Context;
 using HyperKala.Domain.Entities.Account;
 using HyperKala.Domain.Interfaces;
+using HyperKala.Domain.ViewModels.Admin;
+using HyperKala.Domain.ViewModels.Paging;
 using Microsoft.EntityFrameworkCore;
 
 namespace HyperKala.DataLayer.Repositories
@@ -51,6 +53,39 @@ namespace HyperKala.DataLayer.Repositories
         {
             return await _context.Users.FirstOrDefaultAsync(s => s.Id == id);
         }
+        #endregion
+
+        #region AdminPanel
+        public async Task<FilterUserViewModel> FilterUsers(FilterUserViewModel filter)
+        {
+            var query = _context.Users.AsQueryable();
+
+
+            if (!string.IsNullOrEmpty(filter.PhoneNumber))
+            {
+                query = query.Where(c => c.PhoneNumber == filter.PhoneNumber);
+            }
+
+            var pager = Pager.Build(filter.PageId, await query.CountAsync(), filter.TakeEntity, filter.CountForShowAfterAndBefore);
+            var allData = await query.Paging(pager).ToListAsync();
+
+
+            return filter.SetPaging(pager).SetUsers(allData);
+        }
+
+        public async Task<EditUserFromAdmin?> GetEditUserFromAdmin(long userId)
+        {
+            return await _context.Users.AsQueryable()
+                .Where(c => c.Id == userId)
+                .Select(x => new EditUserFromAdmin
+                {
+                    Id = x.Id,
+                    FirstName = x.FirstName,
+                    LastName = x.LastName,
+                    UserGender = x.UserGender
+                }).SingleOrDefaultAsync();
+        }
+
         #endregion
 
     }

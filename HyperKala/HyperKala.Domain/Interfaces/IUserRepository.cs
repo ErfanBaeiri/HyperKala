@@ -1,4 +1,5 @@
 ﻿using HyperKala.Domain.Entities.Account;
+using HyperKala.Domain.ViewModels.Admin;
 
 namespace HyperKala.Domain.Interfaces
 {
@@ -19,6 +20,12 @@ namespace HyperKala.Domain.Interfaces
 
         #region UserPanel
         Task<User?> GetUserByIdAsync(long id);
+        #endregion
+
+        #region admin
+        Task<FilterUserViewModel> FilterUsers(FilterUserViewModel filter);
+        Task<EditUserFromAdmin?> GetEditUserFromAdmin(long userId);
+
         #endregion
     }
 }

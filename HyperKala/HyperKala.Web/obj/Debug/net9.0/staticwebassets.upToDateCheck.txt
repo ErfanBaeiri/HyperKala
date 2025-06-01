@@ -41,6 +41,7 @@ C:\Users\Tolu\Documents\GitHub\HyperKala\HyperKala\HyperKala.Web\wwwroot\css\dem
 C:\Users\Tolu\Documents\GitHub\HyperKala\HyperKala\HyperKala.Web\wwwroot\css\plugins\jquery.countdown.css
 C:\Users\Tolu\Documents\GitHub\HyperKala\HyperKala\HyperKala.Web\wwwroot\vendor\font-awesome\css\all.min.css
 C:\Users\Tolu\Documents\GitHub\HyperKala\HyperKala\HyperKala.Web\wwwroot\css\skins\skin-demo-9.css
+C:\Users\Tolu\Documents\GitHub\HyperKala\HyperKala\HyperKala.Web\wwwroot\admin\js\custom.js
 C:\Users\Tolu\Documents\GitHub\HyperKala\HyperKala\HyperKala.Web\wwwroot\js\webfont.js
 C:\Users\Tolu\Documents\GitHub\HyperKala\HyperKala\HyperKala.Web\wwwroot\js\custom.js
 C:\Users\Tolu\Documents\GitHub\HyperKala\HyperKala\HyperKala.Web\wwwroot\userPanel\css\owl.theme.default.min.css
@@ -165,6 +166,7 @@ C:\Users\Tolu\Documents\GitHub\HyperKala\HyperKala\HyperKala.Web\wwwroot\css\dem
 C:\Users\Tolu\Documents\GitHub\HyperKala\HyperKala\HyperKala.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
 C:\Users\Tolu\Documents\GitHub\HyperKala\HyperKala\HyperKala.Web\wwwroot\css\demos\demo-12.css
 C:\Users\Tolu\Documents\GitHub\HyperKala\HyperKala\HyperKala.Web\wwwroot\css\demos\demo-10.css
+C:\Users\Tolu\Documents\GitHub\HyperKala\HyperKala\HyperKala.Web\wwwroot\admin\css\custom.css
 C:\Users\Tolu\Documents\GitHub\HyperKala\HyperKala\HyperKala.Web\wwwroot\js\demos\demo-3.js
 C:\Users\Tolu\Documents\GitHub\HyperKala\HyperKala\HyperKala.Web\wwwroot\css\skins\skin-demo-27.css
 C:\Users\Tolu\Documents\GitHub\HyperKala\HyperKala\HyperKala.Web\wwwroot\js\jquery.elevateZoom.min.js
@@ -221,6 +223,8 @@ C:\Users\Tolu\Documents\GitHub\HyperKala\HyperKala\HyperKala.Web\wwwroot\lib\boo
 C:\Users\Tolu\Documents\GitHub\HyperKala\HyperKala\HyperKala.Web\wwwroot\css\demos\demo-16.css
 C:\Users\Tolu\Documents\GitHub\HyperKala\HyperKala\HyperKala.Web\wwwroot\userPanel\css\account.css
 C:\Users\Tolu\Documents\GitHub\HyperKala\HyperKala\HyperKala.Web\wwwroot\images\products\single\gallery\2-big.html
+wwwroot\admin\css\custom.css
+wwwroot\admin\js\custom.js
 wwwroot\css\bootstrap.min.css
 wwwroot\css\bootstrap-rtl.min.css
 wwwroot\css\demos\carousel-layout.css

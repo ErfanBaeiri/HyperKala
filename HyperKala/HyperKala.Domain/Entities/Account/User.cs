@@ -47,6 +47,8 @@ namespace HyperKala.Domain.Entities.Account
 
         #region relations
         public  ICollection<UserWallet> UserWallets { get; set; }
+        public ICollection<UserRole> UserRoles { get; set; }
+
         #endregion
     }
     public enum UserGender

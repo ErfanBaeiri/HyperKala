@@ -1,6 +1,14 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\HyperKala\\HyperKala\\HyperKala.Web\\wwwroot\\admin\\css\\custom.css",
+      "PackagePath": "staticwebassets\\admin\\css\\custom.css"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\HyperKala\\HyperKala\\HyperKala.Web\\wwwroot\\admin\\js\\custom.js",
+      "PackagePath": "staticwebassets\\admin\\js\\custom.js"
+    },
+    {
       "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\HyperKala\\HyperKala\\HyperKala.Web\\wwwroot\\css\\bootstrap-rtl.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap-rtl.min.css"
     },

@@ -1,6 +1,8 @@
 ﻿using GoogleReCaptcha.V3.Interface;
+using HyperKala.Application.Extensions;
 using HyperKala.Application.Interfaces;
 using HyperKala.Domain.ViewModels.Account;
+using HyperKala.Domain.ViewModels.Wallet;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
@@ -12,11 +14,13 @@ namespace HyperKala.Web.Controllers
     {
         #region DI
         private readonly IUserService _userService;
+        private readonly IWalletService _walletService;
         private readonly ICaptchaValidator _captchaValidator;
-        public AccountController(IUserService userService, ICaptchaValidator captchaValidator)
+        public AccountController(IUserService userService, ICaptchaValidator captchaValidator, IWalletService walletService)
         {
             _userService = userService;
             _captchaValidator = captchaValidator;
+            _walletService = walletService;
         }
         #endregion
 
