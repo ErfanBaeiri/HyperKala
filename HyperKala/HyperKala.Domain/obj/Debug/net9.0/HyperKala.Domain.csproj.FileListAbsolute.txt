@@ -10,3 +10,4 @@ C:\Users\Tolu\Documents\GitHub\HyperKala\HyperKala\HyperKala.Domain\obj\Debug\ne
 C:\Users\Tolu\Documents\GitHub\HyperKala\HyperKala\HyperKala.Domain\obj\Debug\net9.0\refint\HyperKala.Domain.dll
 C:\Users\Tolu\Documents\GitHub\HyperKala\HyperKala\HyperKala.Domain\obj\Debug\net9.0\HyperKala.Domain.pdb
 C:\Users\Tolu\Documents\GitHub\HyperKala\HyperKala\HyperKala.Domain\obj\Debug\net9.0\ref\HyperKala.Domain.dll
+C:\Users\Tolu\Documents\GitHub\HyperKala\HyperKala\HyperKala.Domain\obj\Debug\net9.0\HyperKala.Domain.csproj.AssemblyReference.cache

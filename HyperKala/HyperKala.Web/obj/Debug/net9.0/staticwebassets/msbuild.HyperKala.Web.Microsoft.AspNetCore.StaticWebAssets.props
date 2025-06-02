@@ -31284,41 +31284,77 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\video\poster-3.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\category\orgin\ae06d5573ad641f2a9227d250e0c2249.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\category\orgin\27c00489ecd14e258d2702576ba306d3.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>HyperKala.Web</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/HyperKala.Web</BasePath>
-      <RelativePath>img/category/orgin/ae06d5573ad641f2a9227d250e0c2249.jpg</RelativePath>
+      <RelativePath>img/category/orgin/27c00489ecd14e258d2702576ba306d3.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>fsl0hhntmg</Fingerprint>
-      <Integrity>T7MmCXWko11kaKbkGu92UJ6ASM1Sn/7VpdOb9BnqiaM=</Integrity>
+      <Fingerprint>0239f6ykoj</Fingerprint>
+      <Integrity>SCFI0ntYweXi7Anwulhnh8q5UMmE8wSGzfSmVZ8lJ+E=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\category\orgin\ae06d5573ad641f2a9227d250e0c2249.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\category\orgin\27c00489ecd14e258d2702576ba306d3.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\category\thumb\ae06d5573ad641f2a9227d250e0c2249.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\category\thumb\27c00489ecd14e258d2702576ba306d3.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>HyperKala.Web</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/HyperKala.Web</BasePath>
-      <RelativePath>img/category/thumb/ae06d5573ad641f2a9227d250e0c2249.jpg</RelativePath>
+      <RelativePath>img/category/thumb/27c00489ecd14e258d2702576ba306d3.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>1pc1tb7aln</Fingerprint>
-      <Integrity>hS82H+2yfOxKUewLmt2UixMr8w5nOsE9DZSQBVxapfM=</Integrity>
+      <Fingerprint>1p9z6wiffd</Fingerprint>
+      <Integrity>1UG/WE8dtNJ9cWnu0qpUfaSFWC8NfWoD6bX2XPJ5yko=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\category\thumb\ae06d5573ad641f2a9227d250e0c2249.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\category\thumb\27c00489ecd14e258d2702576ba306d3.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\product\orgin\db791f517ddf4737ba49e3e89543825b.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>HyperKala.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/HyperKala.Web</BasePath>
+      <RelativePath>img/product/orgin/db791f517ddf4737ba49e3e89543825b.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>tg5az3ek41</Fingerprint>
+      <Integrity>LQmwfPqzHvIn9q7Y5ont+zgr0XmznzcrG/5MALEnAMc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\product\orgin\db791f517ddf4737ba49e3e89543825b.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\product\thumb\db791f517ddf4737ba49e3e89543825b.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>HyperKala.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/HyperKala.Web</BasePath>
+      <RelativePath>img/product/thumb/db791f517ddf4737ba49e3e89543825b.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ncefd2791s</Fingerprint>
+      <Integrity>Zxt40xv0STRdGbbej3HDBEa3Aj7qYEu3uLM7fIHefOg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\product\thumb\db791f517ddf4737ba49e3e89543825b.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\bootstrap-input-spinner.js'))">
       <SourceType>Package</SourceType>

@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "vRBCdGNkerM=",
+  "dgSpecHash": "Qz9V+gaMaw0=",
   "success": true,
   "projectFilePath": "C:\\Users\\Tolu\\Documents\\GitHub\\HyperKala\\HyperKala\\HyperKala.Domain\\HyperKala.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Tolu\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\Tolu\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\Tolu\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

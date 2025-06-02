@@ -6953,12 +6953,20 @@
       "PackagePath": "staticwebassets\\images\\video\\poster-3.jpg"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\HyperKala\\HyperKala\\HyperKala.Web\\wwwroot\\img\\category\\orgin\\ae06d5573ad641f2a9227d250e0c2249.jpg",
-      "PackagePath": "staticwebassets\\img\\category\\orgin\\ae06d5573ad641f2a9227d250e0c2249.jpg"
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\HyperKala\\HyperKala\\HyperKala.Web\\wwwroot\\img\\category\\orgin\\27c00489ecd14e258d2702576ba306d3.jpg",
+      "PackagePath": "staticwebassets\\img\\category\\orgin\\27c00489ecd14e258d2702576ba306d3.jpg"
     },
     {
-      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\HyperKala\\HyperKala\\HyperKala.Web\\wwwroot\\img\\category\\thumb\\ae06d5573ad641f2a9227d250e0c2249.jpg",
-      "PackagePath": "staticwebassets\\img\\category\\thumb\\ae06d5573ad641f2a9227d250e0c2249.jpg"
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\HyperKala\\HyperKala\\HyperKala.Web\\wwwroot\\img\\category\\thumb\\27c00489ecd14e258d2702576ba306d3.jpg",
+      "PackagePath": "staticwebassets\\img\\category\\thumb\\27c00489ecd14e258d2702576ba306d3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\HyperKala\\HyperKala\\HyperKala.Web\\wwwroot\\img\\product\\orgin\\db791f517ddf4737ba49e3e89543825b.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\orgin\\db791f517ddf4737ba49e3e89543825b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\HyperKala\\HyperKala\\HyperKala.Web\\wwwroot\\img\\product\\thumb\\db791f517ddf4737ba49e3e89543825b.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\thumb\\db791f517ddf4737ba49e3e89543825b.jpg"
     },
     {
       "Id": "C:\\Users\\Tolu\\Documents\\GitHub\\HyperKala\\HyperKala\\HyperKala.Web\\wwwroot\\js\\bootstrap-input-spinner.js",

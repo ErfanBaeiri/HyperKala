@@ -37,6 +37,7 @@ namespace HyperKala.Domain.Interfaces
         Task RemoveAllUserSelectedRole(long userId);
         Task AddUserToRole(List<long> selctedRole, long userId);
         Task<bool> IsExistRoleForUser(string roleTitle);
+        bool CheckPermission(long permissionId, string phoneNumber);
         #endregion
     }
 }

@@ -102,6 +102,12 @@ namespace HyperKala.Application.Services
 
         }
 
+        public bool CheckPermission(long permissionId, string phoneNumber)
+        {
+            return _userRepository.CheckPermission(permissionId, phoneNumber);
+        }
+
+
         #endregion
 
         #region UserPanel

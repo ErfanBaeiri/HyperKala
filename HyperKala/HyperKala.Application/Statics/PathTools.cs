@@ -20,5 +20,15 @@
         public static string CategoryThumbServer = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img/category/thumb/");
 
         #endregion
+
+        #region product
+
+        public static string ProductOrgin = "/img/product/orgin/";
+        public static string ProductOrginServer = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img/product/orgin/");
+
+        public static string ProductThumb = "/img/product/thumb/";
+        public static string ProductThumbServer = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img/product/thumb/");
+
+        #endregion
     }
 }

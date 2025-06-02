@@ -1,6 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.Reflection;
 
+
 namespace HyperKala.Application.Extensions
 {
     public static class CommonExtensions

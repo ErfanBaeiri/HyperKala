@@ -523,3 +523,11 @@ C:\Users\Tolu\Documents\GitHub\HyperKala\HyperKala\HyperKala.Web\bin\Debug\net9.
 C:\Users\Tolu\Documents\GitHub\HyperKala\HyperKala\HyperKala.Web\obj\Debug\net9.0\compressed\7cah8scvoe-2nxq2s58aw.gz
 C:\Users\Tolu\Documents\GitHub\HyperKala\HyperKala\HyperKala.Web\obj\Debug\net9.0\compressed\r8hnho0r1i-heb53diqgk.gz
 C:\Users\Tolu\Documents\GitHub\HyperKala\HyperKala\HyperKala.Web\obj\Debug\net9.0\compressed\6t36dw0nij-v11b3ds43y.gz
+C:\Users\Tolu\Documents\GitHub\HyperKala\HyperKala\HyperKala.Web\bin\Debug\net9.0\libman.json
+C:\Users\Tolu\Documents\GitHub\HyperKala\HyperKala\HyperKala.Web\bin\Debug\net9.0\System.Web.Mvc.dll
+C:\Users\Tolu\Documents\GitHub\HyperKala\HyperKala\HyperKala.Web\bin\Debug\net9.0\System.Web.Razor.dll
+C:\Users\Tolu\Documents\GitHub\HyperKala\HyperKala\HyperKala.Web\bin\Debug\net9.0\System.Web.Helpers.dll
+C:\Users\Tolu\Documents\GitHub\HyperKala\HyperKala\HyperKala.Web\bin\Debug\net9.0\System.Web.WebPages.Deployment.dll
+C:\Users\Tolu\Documents\GitHub\HyperKala\HyperKala\HyperKala.Web\bin\Debug\net9.0\System.Web.WebPages.Razor.dll
+C:\Users\Tolu\Documents\GitHub\HyperKala\HyperKala\HyperKala.Web\bin\Debug\net9.0\System.Web.WebPages.dll
+C:\Users\Tolu\Documents\GitHub\HyperKala\HyperKala\HyperKala.Web\bin\Debug\net9.0\Microsoft.Web.Infrastructure.dll
